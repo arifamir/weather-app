@@ -1,9 +1,19 @@
-td {
-    color: black;
+svg{
+    height:150px;
+}
+td, th {
+    color: gray;
+    text-align: center !important;
+    vertical-align: middle; !important;
 }
 
-#webshop-navbar {
-    background-color: #2874f0;
+td:first-of-type, td:first-of-type > div{
+    height:200px;
+    width:250px;
+}
+
+#temp-navbar {
+    background-color: #ffffff;
     color: #FFFFFF;
 }
 
@@ -16,7 +26,7 @@ td {
     padding-bottom: 20px;
 }
 
-.webshop-navbar-input {
+.temp-navbar-input {
     padding: 10px 16px;
     border-radius: 2px 0 0 2px;
     border: 0 none;
@@ -25,7 +35,7 @@ td {
     color: #000;
 }
 
-.webshop-navbar-button {
+.temp-navbar-button {
     background-color: #ffe11b;
     border: 1px solid #ffe11b;
     border-radius: 0 2px 2px 0;
@@ -82,6 +92,10 @@ td {
 .smallsearch{
     margin-left: 15px;
     margin-top: 15px;
+}
+
+.temp-navbar-input {
+    background: #fafafa;
 }
 
 .menu{
