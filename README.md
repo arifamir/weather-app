@@ -1,4 +1,4 @@
-# React Weather App
+# React Sample Weather App
 
 ### Getting Started
 
